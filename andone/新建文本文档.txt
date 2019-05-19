@@ -1,0 +1,5 @@
+create table gatestatus(
+id int primary key auto_increment,
+name char(10) not null,
+time datetime not null unique,
+status char(10) not null);
